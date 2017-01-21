@@ -1,22 +1,36 @@
 # Global Artificial Intelligence Conference - TensorFlow Presentation
 ## Setup
-```sh
-pip install -r requirements.txt
-```
-## Run Notebook
+1. Install [Miniconda](http://conda.pydata.org/miniconda.html)(Python 3.5) on your computer
+2. Create the conda environment
+
+   ```sh
+   $ conda env create -f environment.yml
+   ```
+3. Load the conda environment
+
+   **OS X and Linux**
+   ```sh
+   $ source activate gaic-tensorflow
+   ```
+   **Windows**
+   ```sh
+   $ activate gaic-tensorflow
+   ```
+
+## Notebooks
 ### TensorFlow Basics
 ```sh
-jupyter notebook notebooks/1_tensorflow_basics.ipynb
+(gaic-tensorflow)$ jupyter notebook notebooks/1_tensorflow_basics.ipynb
 ```
 ### Simple Model
 ```sh
-jupyter notebook notebooks/2_simple_model.ipynb
+(gaic-tensorflow)$ jupyter notebook notebooks/2_simple_model.ipynb
 ```
 ### Convolution Neural Networks
 ```sh
-jupyter notebook notebooks/3_cnn_model.ipynb
+(gaic-tensorflow)$ jupyter notebook notebooks/3_cnn_model.ipynb
 ```
 ### Transfer Learning
 ```sh
-jupyter notebook notebooks/4_transfer_learning.ipynb
+(gaic-tensorflow)$ jupyter notebook notebooks/4_transfer_learning.ipynb
 ```

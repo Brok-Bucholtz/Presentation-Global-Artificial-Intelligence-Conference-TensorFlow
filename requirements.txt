@@ -1,6 +1,0 @@
-tensorflow
-jupyter
-numpy
-tqdm
-pillow
-sklearn
