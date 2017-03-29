@@ -1,20 +1,9 @@
 # Global Artificial Intelligence Conference - TensorFlow Presentation
 ## Setup
-1. Install [Miniconda](http://conda.pydata.org/miniconda.html)(Python 3.5) on your computer
-2. Create the conda environment
+Install the required packages
 
    ```sh
-   $ conda env create -f environment.yml
-   ```
-3. Load the conda environment
-
-   **OS X and Linux**
-   ```sh
-   $ source activate gaic-tensorflow
-   ```
-   **Windows**
-   ```sh
-   $ activate gaic-tensorflow
+   $ pip install -r requirements.txt
    ```
 
 ## Notebooks

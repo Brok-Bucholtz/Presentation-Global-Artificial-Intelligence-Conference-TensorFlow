@@ -1,6 +1,7 @@
-tensorflow
+tensorflow>=1.0.0
 jupyter
 numpy
 tqdm
 pillow
 sklearn
+scipy
